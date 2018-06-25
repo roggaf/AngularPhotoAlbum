@@ -1,0 +1,52 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+  display:block; 
+  float:left;
+}
+
+.breadcrumb {
+  margin-bottom:10px; 
+  text-decoration:underline; 
+  display:block; 
+  float: right;
+  cursor: pointer;
+}
+
+.card {
+  padding:20px; 
+  width: 200px; 
+  height: 200px; 
+  display: block; 
+  float:left;
+  border: 1px solid black; 
+  margin: 5px; 
+  text-align: center;
+}
+
+.card .header {
+  margin-bottom: 20px; 
+  text-align: center;
+}
+
+.card .header .name {
+  font-weight:bold; 
+  font-size: 1.1em;
+  overflow: hidden;
+  white-space: nowrap; 
+  text-overflow:ellipsis; 
+  display:block;
+}
+
+.user.card .user-body {
+  text-align: left;
+}
+.user.card .user-body span {
+  display:block;
+  margin-bottom: 5px;
+}
+
+.clearIt {
+  clear: both;
+}
